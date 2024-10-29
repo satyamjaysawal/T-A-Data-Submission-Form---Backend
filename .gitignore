@@ -1,0 +1,68 @@
+# Python files and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.whl
+
+# Flask configuration files
+instance/
+config.py
+.env
+
+# Environment files and virtual environments
+venv/
+env/
+.venv/
+.env/
+*.env
+*.env.*
+
+# IDEs and editor files
+.vscode/
+.idea/
+*.swp
+
+# macOS and other system files
+.DS_Store
+Thumbs.db
+
+# Logs and cache
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.cache
+
+# Testing and coverage results
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.*
+.cache
+.pytest_cache/
+.pyre/
+.pytype/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local development database
+*.sqlite3
+*.db
+
+# Static and uploaded files (optional)
+uploads/
+staticfiles/
+media/
+
+# Flask specific
+*.pid
